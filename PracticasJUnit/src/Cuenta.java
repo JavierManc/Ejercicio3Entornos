@@ -30,6 +30,10 @@ public class Cuenta {
 		this.cantidad = cantidad;
 	}
 	
+	public String toString() {
+		return(this.titular+" tiene "+this.cantidad+"€");
+	}
+	
 	
 	public void ingresar(double cantidad) {
 		if(cantidad>0) {
