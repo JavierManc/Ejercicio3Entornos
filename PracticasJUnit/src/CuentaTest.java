@@ -70,6 +70,10 @@ public class CuentaTest {
 		c2.retirar(2000);
 		assertEquals(0,c2.getCantidad(),0.2);
 	}
-
+	
+	@Test
+	public void testToString() {
+		c2.equals("Paco tiene 1500€");
+	}
 
 }
